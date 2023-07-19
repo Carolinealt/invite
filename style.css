@@ -288,6 +288,7 @@ button {
   margin: 0 auto;
   z-index: 1;
   margin-bottom: 50px;
+  /* border: #352B2A solid 1px; */
 
   /* outline: red 3px solid; */
 
@@ -299,6 +300,7 @@ button {
   height: fit-content;
   margin: 0 auto;
   background-color: white;
+
 }
 
 
