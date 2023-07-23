@@ -536,6 +536,10 @@ button {
 
   }
 
+  .program-list-deskop {
+    display: none;
+  }
+
   .img-program {
     margin: 0 auto;
     max-width: 243px;
