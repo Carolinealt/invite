@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=уу, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Marck+Script&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Marck+Script&family=Pacifico&family=Playfair+Display:ital,wght@1,600&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+
+    <title>Invite</title>
   </head>
   <body>
     <header class="header">
@@ -25,12 +28,8 @@
             <img class="logo-header" src="./img/png/logo-norm (2).png" />
           </li>
           <li class="header-item">
-            <h1 class="title">Приглашение на свадьбу.</h1>
-            <p class="desk desk-header">
-              На цьому сайті ви маєте змогу ознайомитися із найголовнішими
-              подіями 9.09.2023. Тут є дані про місце реєстрації, її час та
-              маленьку програму подій, яка розповість вам наш план протягом дня.
-            </p>
+            <h1 class="title">Приглашение <br />на свадьбу</h1>
+            <p class="desk desk-header"></p>
           </li>
         </ul>
       </div>
@@ -38,7 +37,7 @@
     <main>
       <section class="enveloping">
         <div class="container">
-          <p class="title title-env">жмякни на меня</p>
+          <p class="title title-env"></p>
           <p class="title title-env">V V V</p>
 
           <div class="invite-active" data-modal-open>
@@ -56,7 +55,7 @@
               <div class="test">
                 <img
                   class="img-program"
-                  src="./img/wedding-couple-cartoon-character-illustration_56104-398.avif"
+                  src="./img/png/firstphoto.jpg"
                   width="350"
                 />
                 <!-- <p class="desk">
@@ -112,7 +111,7 @@
             <li class="program-list-item">
               <img
                 class="img-program"
-                src="./img/wedding-couple-cartoon-character-illustration_56104-398.avif"
+                src="./img/png/firstphoto.jpg"
                 width="350"
               />
             </li>
@@ -194,29 +193,33 @@
           src="./img/png/logo-norm (2).png"
           width="250"
         />
-        <p class="desk desk-form desk-form-inviting">
-          Маємо можливість розділити з вами радість від реєстрації нашої нової
-          сім'ї.
-        </p>
+        <!-- <p class="desk desk-form desk-form-inviting">
+        </p> -->
         <h2 class="title title-form title-form-name">
-          Денис и<br />
-          Каролина<br />
-          Кудрицкие
+          Славик, Лилия, <br />Олег, Арина
         </h2>
-        <p class="desk desk-form desk-form-text"></p>
-        <ul class="date-geo list">
-          <li class="date-geo-item">
-            <p class="day">09</p>
-            <p class="month">вер</p>
-            <p class="year">2023</p>
-          </li>
-          <li class="date-geo-item">
-            <p class="geo month">
-              <span class="time">о 11:20</span> в ДРАГСі за адресою: Галицька
-              вул. 25, Івано-Франківськ
-            </p>
-          </li>
-        </ul>
+        <div class="wrap-form">
+          <p class="desk desk-form desk-form-text" style="text-align: center">
+            Cубота
+          </p>
+          <p class="desk desk-form desk-form-inviting"></p>
+
+          <ul class="date-geo list">
+            <li class="date-geo-item">
+              <p class="day">09</p>
+              <p class="month">вер</p>
+              <p class="year"></p>
+            </li>
+            <li class="date-geo-item">
+              <p class="geo month">
+                <span class="time">11:20</span>
+              </p>
+            </li>
+          </ul>
+          <p class="desk desk-form desk-form-inviting" style="text-align: left">
+            Центральный ЗАГС, улица Галицкая, 25, Ивано-Франковск
+          </p>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
