@@ -330,6 +330,11 @@ button {
 .footer {
   background-color: #DEDACF;
   padding: 60px 15px;
+
+}
+
+.program-list-deskop {
+  display: none;
 }
 
 
